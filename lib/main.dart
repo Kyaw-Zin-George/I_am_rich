@@ -13,7 +13,8 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://i.mydramalist.com/E5l2xl_2f.jpg')
+            // image: NetworkImage('https://i.mydramalist.com/E5l2xl_2f.jpg')
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
