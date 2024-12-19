@@ -11,8 +11,10 @@ void main() {
           title: Text("I Am Rich"),
           backgroundColor: Colors.blueGrey[800],
         ),
-        body: Image(
-          image: NetworkImage('https://i.mydramalist.com/E5l2xl_2f.jpg')
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://i.mydramalist.com/E5l2xl_2f.jpg')
+          ),
         ),
       ),
    ),
