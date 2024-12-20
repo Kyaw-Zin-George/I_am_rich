@@ -13,7 +13,9 @@ void main() {
         ),
         body: Center(
           child: Image(
+            //Network Image
             // image: NetworkImage('https://i.mydramalist.com/E5l2xl_2f.jpg')
+            //Local Image
             image: AssetImage('images/diamond.png'),
           ),
         ),
